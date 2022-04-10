@@ -2,7 +2,7 @@
 
 An IBM and 1970s inspired desktop theme.
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot-2022-04-09.png)
 
 This theme is implemented as several distinct yet coordinated customizations of Linux and macOS applications.
 
@@ -33,6 +33,12 @@ Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfile
 [Dunst](https://github.com/dunst-project/dunst) is a notification daemon.
 
 * [dunstrc](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/dunst/dunstrc#L248)
+
+## ElKowars wacky widgets (EWW)
+
+[Eww](https://github.com/elkowar/eww) is a desktop bar
+
+* [eww.scss](https://github.com/andornaut/dotfiles/blob/30fb710c35354f29268e23c086117eafbe6318f4/%24HOME/.config/eww/eww.scss)
 
 ## Home Assistant
 
