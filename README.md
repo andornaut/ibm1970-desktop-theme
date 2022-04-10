@@ -38,7 +38,7 @@ Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfile
 
 [Eww](https://github.com/elkowar/eww) is a desktop bar
 
-* [eww.scss](https://github.com/andornaut/dotfiles/blob/30fb710c35354f29268e23c086117eafbe6318f4/%24HOME/.config/eww/eww.scss)
+* [~/.config/eww/](https://github.com/andornaut/dotfiles/blob/30fb710c35354f29268e23c086117eafbe6318f4/%24HOME/.config/eww/)
 
 ## Home Assistant
 
