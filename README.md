@@ -26,7 +26,7 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 [bspwm](https://github.com/baskerville/bspwm) is a tiling window manager.
 
-* [bspwmrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/bspwm/bspwmrc#L30)
+* [bspwmrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/bspwm/bspwmrc#L27)
 
 ## Dunst
 
@@ -51,12 +51,6 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 [iTerm2](https://iterm2.com/) is a terminal emulator for macOS.
 
 * [ibm1970.itermcolors](./iterm2/ibm1970.itermcolors)
-
-## lemonbar
-
-[lemonbar](https://github.com/LemonBoy/bar) is a desktop bar.
-
-* [bbsrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/bbs/bbsrc#L3) - bbs provides scripts to customize lemonbar
 
 ## macOS menubar
 
