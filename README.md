@@ -6,7 +6,7 @@ An IBM and 1970s inspired desktop theme.
 
 This theme is implemented as several distinct yet coordinated customizations of Linux and macOS applications.
 
-Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfiles/tree/6c947f387d15abe662ddef630ce28c866250c254)
+Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfiles/tree/5c99724568121499b0be5b51fde9f9bc26e1cdfd)
 
 ## Wallpaper
 
@@ -20,25 +20,25 @@ Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfile
 
 [Alacritty](https://github.com/alacritty/alacritty) is a cross-platform terminal emulator.
 
-* [alacritty.yml](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/alacritty/alacritty.yml#L63)
+* [alacritty.yml](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/alacritty/alacritty.yml#L63)
 
 ## bspwm
 
 [bspwm](https://github.com/baskerville/bspwm) is a tiling window manager.
 
-* [bspwmrc](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/bspwm/bspwmrc#L30)
+* [bspwmrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/bspwm/bspwmrc#L30)
 
 ## Dunst
 
 [Dunst](https://github.com/dunst-project/dunst) is a notification daemon.
 
-* [dunstrc](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/dunst/dunstrc#L248)
+* [dunstrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/dunst/dunstrc#L248)
 
 ## ElKowars wacky widgets (EWW)
 
 [Eww](https://github.com/elkowar/eww) is a desktop bar
 
-* [~/.config/eww/](https://github.com/andornaut/dotfiles/blob/30fb710c35354f29268e23c086117eafbe6318f4/%24HOME/.config/eww/)
+* [~/.config/eww/](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/eww/)
 
 ## Home Assistant
 
@@ -56,7 +56,7 @@ Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfile
 
 [lemonbar](https://github.com/LemonBoy/bar) is a desktop bar.
 
-* [bbsrc](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/bbs/bbsrc#L3) - bbs provides scripts to customize lemonbar
+* [bbsrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/bbs/bbsrc#L3) - bbs provides scripts to customize lemonbar
 
 ## macOS menubar
 
@@ -67,19 +67,19 @@ Example usage: [andornaut/dotfiles#6c947f3](https://github.com/andornaut/dotfile
 
 [Rofi](https://github.com/davatorium/rofi) is an application launcher and window switcher.
 
-* [rofi/config](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.config/rofi/config#L38)
+* [rofi/config](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/rofi/themes/ibm1970.rasi)
 
 ## tmux
 
 [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer.
 
-* [.tmux.conf](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.tmux.conf#L91)
+* [.tmux.conf](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.tmux.conf#L91)
 
 ## vim
 
 [vim](https://www.vim.org/) is a text editor.
 
-* [.vimrc](https://github.com/andornaut/dotfiles/blob/6c947f387d15abe662ddef630ce28c866250c254/%24HOME/.vimrc#L14)
+* [.vimrc](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.vimrc#L14)
 
 ## Visual Studio Code
 
