@@ -61,7 +61,7 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 [Rofi](https://github.com/davatorium/rofi) is an application launcher and window switcher.
 
-* [rofi/config](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/rofi/themes/ibm1970.rasi)
+* [themes/ibm1970.rasi](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/rofi/themes/ibm1970.rasi)
 
 ## tmux
 
