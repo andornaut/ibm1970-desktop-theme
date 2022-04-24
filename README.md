@@ -44,7 +44,7 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 [Home Assistant](https://www.home-assistant.io/) is an automation platform.
 
-* [themes/ibm1970.yaml](https://github.com/andornaut/homeassistant-ibm1970-theme)
+* [homeassistant-ibm1970-theme](https://github.com/andornaut/homeassistant-ibm1970-theme)
 
 ## iterm2
 
