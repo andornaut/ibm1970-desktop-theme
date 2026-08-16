@@ -1,0 +1,74 @@
+name: Test
+
+# Every branch, not just main and pull requests: work lands on main directly as
+# often as it arrives through one, so a check that only runs on main is a check
+# that runs after the fact.
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Keyed on the branch rather than the ref, so a re-push to one branch cancels
+# its own earlier run and not another branch's. Keyed by the event as well: a
+# cancelled run leaves its check runs on the head commit, and GitHub counts
+# those against the required checks, so a push and its pull request cancelling
+# each other would block the merge.
+# Qualified by the repository the branch lives in, since a fork names its
+# branches itself: two pull requests from different forks would otherwise share
+# a group whenever they pick the same branch name.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.head.repo.full_name || github.repository }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@v7.0.0
+        with:
+          python-version: "3.12"
+
+      # The colour scheme is the whole of what this repository ships, and
+      # nothing reads it until iTerm2 imports it, so a malformed file surfaces
+      # there rather than here.
+      #
+      # plistlib and ElementTree are both in the standard library, so this needs
+      # no install step, and neither of them fetches the DTD the DOCTYPE names:
+      # a gate that reached apple.com to decide would report red whenever that
+      # host was slow.
+      #
+      # Duplicate keys are rejected, which plistlib allows: the later entry
+      # silently replaces the earlier one, and a scheme that sets one colour
+      # twice imports clean while one of the two values never applies.
+      #
+      # Every tracked .itermcolors, so a second scheme is covered without anyone
+      # remembering to add it here.
+      - name: Check that every colour scheme is a valid plist
+        run: |
+          git ls-files -z '*.itermcolors' |
+            xargs -0 python3 -c '
+          import plistlib, sys
+          import xml.etree.ElementTree as ElementTree
+
+          for path in sys.argv[1:]:
+              print(path)
+              with open(path, "rb") as f:
+                  plistlib.load(f)
+              for mapping in ElementTree.parse(path).iter("dict"):
+                  seen = set()
+                  for key in mapping.findall("key"):
+                      if key.text in seen:
+                          raise SystemExit(f"{path}: duplicate key {key.text!r}")
+                      seen.add(key.text)
+          '
