@@ -1,5 +1,6 @@
 # IBM1970 Desktop Theme
 
+[![CI](https://github.com/andornaut/ibm1970-desktop-theme/actions/workflows/test.yml/badge.svg)](https://github.com/andornaut/ibm1970-desktop-theme/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An IBM and 1970s inspired desktop theme.
