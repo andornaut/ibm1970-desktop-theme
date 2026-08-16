@@ -37,7 +37,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7.0.0
         with:
-          python-version: "3.12"
+          python-version-file: .python-version
 
       # The colour scheme is the whole of what this repository ships, and
       # nothing reads it until iTerm2 imports it, so a malformed file surfaces
