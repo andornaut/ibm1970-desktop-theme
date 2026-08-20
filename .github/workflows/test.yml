@@ -68,6 +68,9 @@ jobs:
           import plistlib, sys
           import xml.etree.ElementTree as ElementTree
 
+          if not sys.argv[1:]:
+              raise SystemExit("no .itermcolors files matched: the gate checked nothing")
+
           for path in sys.argv[1:]:
               print(path)
               with open(path, "rb") as f:
