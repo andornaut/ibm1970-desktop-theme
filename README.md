@@ -13,9 +13,9 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 ## Wallpaper
 
-[A photograph of an IBM Data Center](http://ibm-1401.info/IBM1401_ArchivePics.html) by George Dunbar who was a photographer for IBM Canada from 1957 to 1989.
+[A photograph of an IBM Data Center](https://ibm-1401.info/IBM1401_ArchivePics.html) by George Dunbar who was a photographer for IBM Canada from 1957 to 1989.
 
-* [Original](http://ibm-1401.info/Toronto-KingSt-Datacenter-1.jpg)
+* [Original](https://ibm-1401.info/Toronto-KingSt-Datacenter-1.jpg)
 * [16x10](./wallpaper/ibm1970-16x10.png)
 * [21x9](./wallpaper/ibm1970-21x9.png)
 
