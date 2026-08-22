@@ -41,7 +41,7 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 [Eww](https://github.com/elkowar/eww) is a desktop bar
 
-* [~/.config/eww/](https://github.com/andornaut/dotfiles/blob/5c99724568121499b0be5b51fde9f9bc26e1cdfd/%24HOME/.config/eww/)
+* [~/.config/eww/](https://github.com/andornaut/dotfiles/tree/5c99724568121499b0be5b51fde9f9bc26e1cdfd/$HOME/.config/eww)
 
 ## Home Assistant
 
