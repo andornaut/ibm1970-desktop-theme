@@ -7,6 +7,9 @@ COPY tests/container/package.json tests/container/package-lock.json ./
 RUN npm ci --ignore-scripts --no-audit --no-fund
 
 FROM python:${PYTHON_VERSION}
+COPY requirements-dev.txt /opt/check/requirements-dev.txt
+RUN python -m venv /opt/venv \
+    && /opt/venv/bin/python -m pip install --disable-pip-version-check -r /opt/check/requirements-dev.txt
 COPY --from=shellcheck /bin/shellcheck /usr/local/bin/shellcheck
 COPY --from=markdown /usr/local/bin/node /usr/local/bin/node
 COPY --from=markdown /opt/markdown /opt/markdown

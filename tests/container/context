@@ -3,3 +3,4 @@ tests/container/check
 tests/container/package.json
 tests/container/package-lock.json
 tests/container/validate.py
+requirements-dev.txt
