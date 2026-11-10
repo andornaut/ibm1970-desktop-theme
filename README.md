@@ -83,3 +83,15 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 [Visual Studio Code](https://code.visualstudio.com/) is a code editor.
 
 * [vscode-ibm1970-theme](https://github.com/andornaut/vscode-ibm1970-theme)
+
+## Development
+
+Make and Docker run the project-owned checks in `tests/container/`. Verification
+mounts only a read-only source snapshot and scratch storage.
+
+```bash
+make check
+make check-info
+```
+
+The full gate runs the declared lint checks. No test suite or build is declared.
