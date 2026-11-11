@@ -86,9 +86,10 @@ Example usage: [andornaut/dotfiles#5c99724](https://github.com/andornaut/dotfile
 
 ## Development
 
-Checks require Make and Docker 29.9.3, matching CI. The project-owned containers
-live in `tests/container/`. Verification mounts only a read-only source snapshot
-and scratch storage.
+Checks require Make and Docker. Project-owned stock image phases live in
+`tests/container/`. Native checks use the declared runtime; Markdown and
+ShellCheck use separate pinned images. Each phase receives a sanitized source
+snapshot and disposable scratch storage.
 
 ```bash
 make check
